@@ -1,0 +1,24 @@
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 36px 24px;
+}
+
+@media (max-width: 1200px) {
+  .media-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .media-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .media-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px 16px;
+  }
+}

@@ -1,0 +1,30 @@
+.tv-details-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px; 
+  padding: 30px;
+}
+
+.tv-details-header__poster {
+  width: 300px; 
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.tv-details-header__info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; 
+  flex: 1; 
+}
+
+.tv-details-header__info h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.tv-details-header__overview {
+  line-height: 1.6;
+  color: #ccc;
+}

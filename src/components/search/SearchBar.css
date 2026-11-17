@@ -1,0 +1,32 @@
+.search-bar {
+  display: flex;
+  gap: var(--spacing-sm);
+  max-width: 480px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: var(--radius-sm);
+  font-size: 14px;
+  outline: none;
+}
+
+.search-bar input:focus {
+  border-color: var(--color-primary);
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background-color: var(--color-primary);
+  color: var(--color-text-primary);
+  border: none;
+  border-radius: var(--radius-sm);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  opacity: 0.85;
+}

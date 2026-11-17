@@ -1,0 +1,5 @@
+.search-results__title {
+  margin: var(--spacing-lg) 0;
+  font-size: 20px;
+  color: var(--color-text-primary);
+}

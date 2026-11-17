@@ -1,0 +1,29 @@
+:root {
+  /* Core palette (fixed — do not change per teammate) */
+  --color-primary: #ffe353; /* Navbar / filled heart / buttons */
+  --color-bg: #f5f5f5; /* page background */
+  --color-card-bg: #ffffff; /* card background */
+  --color-text-primary: #363636; /* main text */
+  --color-text-secondary: #767676; /* secondary text (dates, etc.) */
+
+  /* Rating circle colors (TMDB-style thresholds) */
+  --color-rating-good: #21d07a; /* >= 70 */
+  --color-rating-ok: #d2d531; /* 40-69 */
+  --color-rating-bad: #db2360; /* < 40 */
+  --color-rating-bg: #1c1c1c;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+
+  /* Spacing scale */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Layout */
+  --page-max-width: 1360px;
+}
